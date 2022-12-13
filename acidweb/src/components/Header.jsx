@@ -9,7 +9,7 @@ function Header() {
     <StyledHeader>
       <Container> 
       <Nav>
-        <Logo src="./public/logo.png" alt='AcidLogo'/>
+        <Logo src="logo.png" alt='AcidLogo'/>
         <Button bg='#ff0099' color='#fff' >Contáctanos</Button>
       </Nav>
       <Flex>

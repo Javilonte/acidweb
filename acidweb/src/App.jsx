@@ -16,17 +16,17 @@ const theme = {
 
 function App() {
   return (
-    <WorkingComponent>
-     {/*  <ThemeProvider theme = {theme}>
+   
+    <ThemeProvider theme = {theme}>
     <>
-    <GlobalStyles />s
+    <GlobalStyles />
     <Header />
     <Container>
-      <h1> ola </h1>
+      
     </Container>
     </>
-    </ThemeProvider> */}
-    </WorkingComponent>
+    </ThemeProvider> 
+   
   )
     
 }

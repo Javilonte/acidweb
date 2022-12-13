@@ -10,9 +10,6 @@ height: 100px;
         color:red;
     }
 
-    &:hover{
-        background-color:black;
-    }
 
 `
 
@@ -26,4 +23,6 @@ export const Nav = styled.nav`
 export const Logo = styled.img`
     width: 180px;
     height: 120px;
+
+    transform: translate(3ch, 3mm);
 `

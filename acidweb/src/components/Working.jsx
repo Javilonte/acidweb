@@ -1,11 +1,12 @@
 import { WorkingComponent, ImgComponent} from "./styles/Working.styled";
 
-import { createGlobalStyle } from "styled-components";
+import { Logo } from "./styles/Header.styled";
 
 function Working() {
   return (
     <WorkingComponent>
-        <ImgComponent />
+        
+        <Logo src="Working.png"></Logo>
     </WorkingComponent>
   )
 }
