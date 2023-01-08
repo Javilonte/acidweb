@@ -6,8 +6,6 @@ import Working from './components/Working'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Working>
-
-    </Working>
+    <App />
   </React.StrictMode>,
 )
