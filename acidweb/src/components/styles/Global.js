@@ -9,10 +9,11 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background: ${({theme}) => theme.colors.body};
+        background-color: #F5F5F5;
         color:hsl(192,100%,9%);
         font-family: 'Poppins', sans-serif;
         font-size: 1.15em;
+        font-weight: 400;
         margin: 0;
         padding: 0;
     }
@@ -20,6 +21,7 @@ export const GlobalStyles = createGlobalStyle`
     p {
         opacity: 0.6;
         line-height: 1.5;
+        color: black;
     }
 
     img {

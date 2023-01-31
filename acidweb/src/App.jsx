@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import {Container} from './components/styles/Container.styled'
 import Header from './components/Header'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './components/styles/Global'
-import { WorkingComponent } from './components/styles/Working.styled'
+import Inovation from './components/Inovation'
+import Detail from './components/Detail'
 
 const theme = {
 
@@ -21,9 +21,8 @@ function App() {
     <>
     <GlobalStyles />
     <Header />
-    <Container>
-      
-    </Container>
+    <Inovation />
+    <Detail />
     </>
     </ThemeProvider> 
    

@@ -1,42 +1,35 @@
-import { StyledHeader } from "./styles/Header.styled"
-import { Nav } from "./styles/Nav.styled"
-import { Container } from "./styles/Container.styled"
-import { Button } from "./styles/Button.styled"
-import { Flex } from "./styles/Flex.styled"
-
+import React from 'react'
+import { Nav } from './styles/LandingHome/Navbar.styled'
+import { Container } from './styles/LandingHome/LandingContainer.styled'
+import { MainContent } from './styles/LandingHome/MainContent.styled'
+import { GetMyButton } from './styles/LandingHome/GetMyButton.styled'
 
 function Header() {
   return (
-    <StyledHeader>
-      <Container> 
+    <Container>
       <Nav>
-      {/* Logo de la empresa */}
-      <img src="/logo.png" alt="Logo de la empresa" />
+        {/* Logo de la empresa */}
+        <img src="/logo.png" alt="Logo de la empresa" />
 
-      {/* Enlaces de navegación */}
-      <ul>
-        <li><a href="/">Inicio</a></li>
-        <li><a href="/acerca-de">Acerca de</a></li>
-        <li><a href="/productos">Productos</a></li>
-        <li><a href="/contacto">Contacto</a></li>
-      </ul>
-    </Nav>
-      <Flex>
-        <video autoPlay='autoplay' loop="loop" muted>
-            <source src= "public/video.mp4" type="video/mp4" />
-            
-        </video>
-        <div>
-        <h1>Make it happen</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure deleniti repellat facilis quia maiores. Consequatur dicta voluptates totam harum veniam excepturi eligendi odio similique doloribus ipsa, cumque, eius, corrupti modi?</p>
-        <Button>Botón</Button>
-        </div>
-      </Flex>
-      <div>
-        
-      </div>
-      </Container>
-    </StyledHeader>
+        {/* Enlaces de navegación */}
+        <ul>
+          {/* <li><a href="/">Inicio</a></li> */}
+          <li><a href="/acerca-de">Acerca de</a></li>
+          <li><a href="/productos">Productos</a></li>
+          <li><a href="/contacto">Blog</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </Nav>
+
+      <MainContent>
+        <h1>We fit to your needs</h1>
+
+        <GetMyButton>
+          <a href="/contacto">Get my website</a>
+        </GetMyButton>
+      </MainContent>
+    </Container>
+
   )
 }
 export default Header
