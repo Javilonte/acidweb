@@ -7,8 +7,9 @@ align-items: center;
 justify-content: space-between;
 padding: 1rem 2rem;
 position: absolute;
-z-index: 1;
 width: 100%;
+z-index: 1;
+
 
 img {
   height: 2.5rem;

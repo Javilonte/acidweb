@@ -1,12 +1,17 @@
 import React from 'react'
 import { Nav } from './styles/LandingHome/Navbar.styled'
-import { Container } from './styles/LandingHome/LandingContainer.styled'
+import { Container, VideoBackground } from './styles/LandingHome/LandingContainer.styled'
 import { MainContent } from './styles/LandingHome/MainContent.styled'
 import { GetMyButton } from './styles/LandingHome/GetMyButton.styled'
 
 function Header() {
   return (
+    
     <Container>
+      
+  <VideoBackground autoPlay loop muted>
+    <src src="../assets/home.mp4" type="video/mp4" />
+  </VideoBackground>
       <Nav>
         {/* Logo de la empresa */}
         <img src="/logo.png" alt="Logo de la empresa" />
@@ -22,12 +27,15 @@ function Header() {
       </Nav>
 
       <MainContent>
+     
+      
         <h1>We fit to your needs</h1>
 
         <GetMyButton>
           <a href="/contacto">Get my website</a>
         </GetMyButton>
       </MainContent>
+      
     </Container>
 
   )

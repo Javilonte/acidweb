@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './components/styles/Global'
 import Inovation from './components/Inovation'
 import Detail from './components/Detail'
+import TurningData from './components/TurningData'
+import Footer from './components/Footer'
 
 const theme = {
 
@@ -23,6 +25,8 @@ function App() {
     <Header />
     <Inovation />
     <Detail />
+    <TurningData />
+    <Footer />
     </>
     </ThemeProvider> 
    

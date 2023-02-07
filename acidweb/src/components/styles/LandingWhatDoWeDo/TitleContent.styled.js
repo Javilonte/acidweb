@@ -7,6 +7,7 @@ export const TitleDiv = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    margin-bottom: 0px;
 
     h1{
         font-size: 5rem;
