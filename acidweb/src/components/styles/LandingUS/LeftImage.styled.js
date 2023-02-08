@@ -5,6 +5,7 @@ export const LeftImage = styled.div`
     width: 50%;
     height: 500px;
     margin: 0 auto;
+    transform: translateY(40%);
     img {
         max-width: 100%;
         max-height: 100%;   

@@ -9,6 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
+        width: 100vw;
         background-color: #ffffff;
         color:hsl(192,100%,9%);
         font-family: 'Poppins', sans-serif;
@@ -21,7 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     p {
         opacity: 0.6;
         line-height: 1.5;
-        color: black;
+        color: ${props => props.textColor || "black"};
     }
 
     img {

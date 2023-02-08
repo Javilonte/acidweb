@@ -4,7 +4,7 @@ export const RightContent = styled.div`
     width: 50%;
     height: 50%;
     margin: 0 auto;
-    padding-top: 5rem;
+    transform: translateY(40%);
     h1 {
         color: #9600F4;
         

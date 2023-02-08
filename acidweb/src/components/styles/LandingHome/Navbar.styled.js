@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background-color: #ffffff;
+background-color: transparent;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -27,7 +27,7 @@ ul {
   }
 
   a {
-    color: black;
+    color: white;
     font-weight: 700;
     text-decoration: none;
   }

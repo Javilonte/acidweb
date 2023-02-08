@@ -6,11 +6,10 @@ import { GetMyButton } from './styles/LandingHome/GetMyButton.styled'
 
 function Header() {
   return (
-    
-    <Container>
       
-  <VideoBackground autoPlay loop muted>
-    <src src="../assets/home.mp4" type="video/mp4" />
+    <Container>
+         
+  <VideoBackground autoPlay loop muted src="../../public/home.mp4" type="video/mp4">
   </VideoBackground>
       <Nav>
         {/* Logo de la empresa */}
